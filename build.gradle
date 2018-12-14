@@ -25,6 +25,7 @@ repositories {
 
 
 dependencies {
+	testCompile "com.github.tomakehurst:wiremock:2.19.0"
 	implementation('org.springframework.boot:spring-boot-starter-data-rest')
 	implementation('org.springframework.boot:spring-boot-starter-web')
 	testImplementation('org.springframework.boot:spring-boot-starter-test')
